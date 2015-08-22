@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Manager</title>
+		<style>
+			body{	
+				margin: 0 auto;
+				display: block;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="main">
+		<h1>Light Manager ({{ current_state }})</h1>
+		<form action="." method="POST">
+			<input type="submit" value="on" name="lights" />
+			<input type="submit" value="off" name="lights" />
+		</form>
+		</div>
+	</body>
+</html>
